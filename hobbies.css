@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 2em;
+  color: #fff;
+  pointer-events: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 15px;
+  border-radius: 20px;
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active {
+  background: #feae3e;
+  color: #fff;
+}
+
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/background.png);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.row {
+  position: absolute;
+  display: flex;
+  height: 50%;
+  padding-top: 32%;
+  padding-right: 2%;
+  padding-left: 2%;
+  align-items: center;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+col {
+  flex-basis: 50%;
+}
+
+h1 {
+  color: #fff;
+  font-size: 100px;
+  line-height: 80px;
+}
+
+p {
+  color: #fff;
+  font-size: 30px;
+  line-height: 40px;
+  padding-top: 10%;
+}
+
+.card {
+  width: 170px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+.card1 {
+  background-image: url(../img/fuerteventura.JPG);
+}
+
+.card2 {
+  background-image: url(../img/newyork.JPG);
+}
+
+.card3 {
+  background-image: url(../img/costarica.jpg);
+}
+
+.card4 {
+  background-image: url(../img/cuba.JPG);
+}
+
+.card5 {
+  background-image: url(../img/costarica2.JPG);
+}
+
+.card6 {
+  background-image: url(../img/perou.JPG);
+}
+
+.card7 {
+  background-image: url(../img/perou2.JPG);
+}
+
+.card8 {
+  background-image: url(../img/perou3.JPG);
+}
+
+.card9 {
+  background-image: url(../img/perou4.JPG);
+}
+
+.card10 {
+  background-image: url(../img/bled.JPG);
+}
+
+.card11 {
+  background-image: url(../img/cayenne.JPG);
+}
+
+.card12 {
+  background-image: url(../img/tenerife.JPG);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+h5 {
+  color: #fff;
+  text-shadow: 0 0 5px #999;
+}
+
+.card p {
+  text-shadow: 0 0 15px #000;
+  font-size: 8px;
+}
+
+footer {
+  background-color: #182040;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+}
+
+footer #linkedin {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+footer #github {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+}
